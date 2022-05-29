@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "common utility functions",
   "main": "common.mjs",
-  "exports": "./common.mjs",
+  "exports": ["./common.mjs"],
   "type": "module",
-  "author": "Eric Muell;er"
+  "author": "Eric Mueller"
 }
