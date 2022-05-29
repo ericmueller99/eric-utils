@@ -1,0 +1,8 @@
+{
+  "name": "eric-utils",
+  "version": "1.0.0",
+  "description": "common utility functions",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
