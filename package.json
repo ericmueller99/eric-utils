@@ -4,7 +4,6 @@
   "description": "common utility functions",
   "main": "common.mjs",
   "exports": "./common.mjs",
-  "author": "",
-  "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "author": "Eric Muell;er"
 }
