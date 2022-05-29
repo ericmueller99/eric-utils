@@ -2,8 +2,8 @@
   "name": "eric-utils",
   "version": "1.0.0",
   "description": "common utility functions",
-  "main": "common.js",
-  "exports": "./common.js",
+  "main": "common.mjs",
+  "exports": "./common.mjs",
   "author": "",
   "license": "ISC",
   "type": "module"
