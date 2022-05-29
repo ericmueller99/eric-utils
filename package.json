@@ -2,7 +2,7 @@
   "name": "eric-utils",
   "version": "1.0.0",
   "description": "common utility functions",
-  "main": "index.js",
+  "main": "common.js",
   "author": "",
   "license": "ISC"
 }
