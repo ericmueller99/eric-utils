@@ -2,8 +2,7 @@
   "name": "eric-utils",
   "version": "1.0.0",
   "description": "common utility functions",
-  "main": "common.mjs",
-  "exports": ["./common.mjs"],
-  "type": "module",
+  "main": "common.js",
+  "exports": ["./common.js"],
   "author": "Eric Mueller"
 }

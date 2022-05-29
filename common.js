@@ -1,5 +1,5 @@
 //checks if a date is valid.  Date must be in yyyy-MM-dd format.
-export function dateIsValid(dateStr) {
+function dateIsValid(dateStr) {
     const regex = /^\d{4}-\d{2}-\d{2}$/;
     if (dateStr.match(regex) === null) {
         return false;
@@ -13,3 +13,6 @@ export function dateIsValid(dateStr) {
     return date.toISOString().startsWith(dateStr);
 }
 
+module.exports = {
+    dateIsValid
+}
