@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 //checks if a date is valid.  Date must be in yyyy-MM-dd format.
 function dateIsValid(dateStr) {
     const regex = /^\d{4}-\d{2}-\d{2}$/;
@@ -13,6 +15,22 @@ function dateIsValid(dateStr) {
     return date.toISOString().startsWith(dateStr);
 }
 
+function deleteFile(fileName, path = "./temp/" + fileName) {
+    if (fileName) {
+        try {
+            fs.unlinkSync(path);
+        }
+        catch (error) {
+            console.log("Unable to delete file");
+            console.log(error);
+        }
+    }
+    else {
+        console.log("fileName not provided");
+    }
+}
+
 module.exports = {
-    dateIsValid
+    dateIsValid,
+    deleteFile
 }
